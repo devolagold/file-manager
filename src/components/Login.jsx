@@ -7,8 +7,8 @@ export default function Login (){
             <div className="flex w-full items-center justify-center mb-4">
                 <img src={Logo} alt="" width='50%'/>
             </div>
-              <h1 className='text-2xl font-semibold'>Login</h1>
-              <p className='font-light text-gray-500 mt-2'>Welcome back! 👋 Login to get started!</p>
+              <h1 className='text-2xl text-center font-medium'>Login</h1>
+              <p className='font-light text-center text-gray-500 mt-2'>Welcome back! 👋 Login to get started!</p>
               <div className='mt-6'>
                   <div className='flex flex-col'>
                       <label className='text-lg font-medium'>Email</label>

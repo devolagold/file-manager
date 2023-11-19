@@ -7,8 +7,8 @@ export default function Signup (){
           <div className="flex w-full items-center justify-center mb-4">
                 <img src={Logo} alt="" width='50%'/>
             </div>
-                <h1 className='text-2xl font-semibold'>Sign up</h1>
-                <p className='font-light text-gray-500 mt-2'>Enter your details to create your account.</p>
+                <h1 className='text-2xl text-center font-medium'>Sign up</h1>
+                <p className='font-light text-center text-gray-500 mt-2'>Enter your details to create your account.</p>
               <div className='mt-4'>
                   <div className='flex flex-col mt-2'>
                       <input 
