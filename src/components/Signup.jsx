@@ -32,7 +32,7 @@ export default function Signup (){
                       />
                   </div>
                   <div className='mt-4 flex flex-col'>
-                      <button className='transition-all hover:opacity-95  ease-in-out transform py-4 bg-[#0066F5] rounded-xl text-white font-medium text-lg'>Log in</button>
+                      <button className='transition-all hover:opacity-95  ease-in-out transform py-4 bg-[#0066F5] rounded-xl text-white font-medium text-lg'>Sign up</button>
                   </div>
                   <div className='mt-3 flex justify-center items-center'>
                       <p className='font-light text-base'>Already have an account?</p>
