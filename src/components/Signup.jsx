@@ -6,25 +6,21 @@ export default function Signup (){
               <p className='font-light text-gray-500 mt-4'>Enter your details to create your account.</p>
               <div className='mt-6'>
                   <div className='flex flex-col mt-2'>
-                      {/* <label className='text-lg font-medium'>First Name</label> */}
                       <input 
-                          className='w-full border-2 border-gray-100 rounded-md p-4 mt-1 bg-transparent'
+                          className='w-full border-2 border-gray-100 rounded-md p-3 mt-1 bg-transparent'
                           placeholder="Enter your First Name"/>
                   </div>
                   <div className='flex flex-col mt-2'>
-                      {/* <label className='text-lg font-medium'>Last Name</label> */}
                       <input 
-                          className='w-full border-2 border-gray-100 rounded-md p-4 mt-1 bg-transparent'
+                          className='w-full border-2 border-gray-100 rounded-md p-3 mt-1 bg-transparent'
                           placeholder="Enter your Last Name"/>
                   </div>
                   <div className='flex flex-col mt-2'>
-                      {/* <label className='text-lg font-medium'>Email</label> */}
                       <input 
-                          className='w-full border-2 border-gray-100 rounded-md p-4 mt-1 bg-transparent'
+                          className='w-full border-2 border-gray-100 rounded-md p-3 mt-1 bg-transparent'
                           placeholder="Enter your email"/>
                   </div>
                   <div className='flex flex-col mt-2'>
-                      {/* <label className='text-lg font-medium'>Password</label> */}
                       <input 
                           className='w-full border-2 border-gray-100 rounded-md p-3 mt-1 bg-transparent'
                           placeholder="Create Password"
@@ -32,7 +28,7 @@ export default function Signup (){
                       />
                   </div>
                   <div className='mt-4 flex flex-col'>
-                      <button className='transition-all hover:opacity-95  ease-in-out transform py-4 bg-[#0066F5] rounded-xl text-white font-medium text-lg'>Sign up</button>
+                      <button className='transition-all hover:opacity-95  ease-in-out transform py-3 bg-[#0066F5] rounded-xl text-white font-medium text-lg'>Sign up</button>
                   </div>
                   <div className='mt-3 flex justify-center items-center'>
                       <p className='font-light text-base'>Already have an account?</p>

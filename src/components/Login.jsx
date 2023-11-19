@@ -8,7 +8,7 @@ export default function Login (){
                   <div className='flex flex-col'>
                       <label className='text-lg font-medium'>Email</label>
                       <input 
-                          className='w-full border-2 border-gray-100 rounded-md p-4 mt-1 bg-transparent'
+                          className='w-full border-2 border-gray-100 rounded-md p-3 mt-1 bg-transparent'
                           placeholder="Enter your email"/>
                   </div>
                   <div className='flex flex-col mt-2'>
@@ -20,7 +20,7 @@ export default function Login (){
                       />
                   </div>
                   <div className='mt-4 flex flex-col'>
-                      <button className='transition-all hover:opacity-95  ease-in-out transform py-4 bg-[#0066F5] rounded-xl text-white font-medium text-lg'>Log in</button>
+                      <button className='transition-all hover:opacity-95  ease-in-out transform py-3 bg-[#0066F5] rounded-lg text-white font-medium text-lg'>Log in</button>
                   </div>
                   <div className='mt-3 flex justify-center items-center'>
                       <p className='font-light text-base'>Don't have an account?</p>
